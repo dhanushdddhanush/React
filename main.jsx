@@ -9,12 +9,7 @@ import Router from './Routes/Router';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   {/* <Usestateexample/>
-   <Useeffectexample/>
-   <Userefexample/> */}
   
   <Router />
-
-
   </StrictMode>,
 )

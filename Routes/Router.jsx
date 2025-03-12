@@ -1,9 +1,11 @@
 import {BrowserRouter , Route, Routes} from "react-router-dom";
-import Usestateexample from "../ExampleUseState";
-import Useeffectexample from "../ExampleUseEffect";
-import Userefexample from "../ExampleUseRef";
+import Usestateexample from "../Components/ExampleUseState";
+import Useeffectexample from "../Components//ExampleUseEffect";
+import Userefexample from "../Components//ExampleUseRef";
 import CallingRoutes from "./CallingRoutes";
-import FilteredList from "../FilteredList"
+import FilteredList from "../Components//FilteredList";
+// import Jokes from "../Components//Jokes";
+import Poki from "../Components//Poki";
 export default function Router(){
     return(
 <BrowserRouter>
@@ -13,6 +15,8 @@ export default function Router(){
 <Route path="/use-effect" element={<Useeffectexample/>}/>
 <Route path="/use-ref" element={<Userefexample/>}/>
 <Route path="/use-memo" element={<FilteredList/>}/>
+{/* <Route path="/jokes" element={<Jokes/>}/> */}
+<Route path="/poki" element={<Poki/>}/>
 
 </Routes>
 

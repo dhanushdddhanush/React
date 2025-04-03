@@ -1,0 +1,34 @@
+
+  .tiles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 40px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  
+ 
+  .icon-wrapper1 {
+    width: 110px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-wrapper1 img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .icon-wrapper1 span {
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
+  }
+  
